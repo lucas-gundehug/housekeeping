@@ -22,8 +22,9 @@ passphrase change and the changelog do anything.
 Left-nav sections (`src/components/app-shell.tsx`):
 
 - **Overview** (`/`) — landing page.
-- **Training** (`/training`) — this week's sessions and ratings, each
-  exercise's progression step (set it by hand), and "reset this week".
+- **Training** (`/training`) — each strength exercise's progression step
+  (set it by hand) and "reset this week", which clears this week's
+  check-offs and ratings.
   The plan itself is still edited on the dashboard's `/workout-edit` page.
 - **Health** (`/health`) — pings the dashboard's `/api/public/health`.
 - **Admin** (`/admin`) — change this app's own passphrase and the

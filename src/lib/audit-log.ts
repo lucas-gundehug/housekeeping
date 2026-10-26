@@ -1,7 +1,7 @@
 import { redis } from "@/lib/redis";
 
 // Change log for the Admin page — "what changed, when", deliberately no
-// "who": there are no individual staff accounts, only the one shared
+// "who": there are no individual user accounts, only the one shared
 // passphrase (see auth.ts), so there's no identity to attach beyond that.
 // Same Redis-or-in-memory fallback pattern as the rest of this app (e.g.
 // login-rate-limit.ts) — a capped list rather than a full history table,

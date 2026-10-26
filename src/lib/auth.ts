@@ -1,6 +1,6 @@
-// This tool holds service-role (RLS-bypassing) access to multiple
-// production databases at once — more powerful than any single project's
-// own admin login — so unlike the 4-digit-code pattern used elsewhere,
+// This tool holds service-role (RLS-bypassing) access to the personal
+// dashboard's database — more powerful than the dashboard's own 4-digit
+// login — so unlike the 4-digit-code pattern used elsewhere,
 // both HOUSEKEEPING_PASSPHRASE and HOUSEKEEPING_TOKEN_SECRET are required
 // with no insecure fallback: if either is unset, auth fails closed instead
 // of silently working with a guessable default.
