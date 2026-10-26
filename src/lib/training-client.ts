@@ -1,5 +1,5 @@
-// Thin client-side wrappers around /api/training/* — mirrors events-client.ts's
-// pattern, talking to this app's own routes (which in turn go straight to
+// Thin client-side wrappers around /api/training/*, talking to this app's
+// own routes (which in turn go straight to
 // personal-dashboard's Supabase project, see personal-dashboard-training.ts).
 
 import { authedFetch } from "@/lib/authed-fetch";

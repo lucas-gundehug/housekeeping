@@ -27,7 +27,7 @@ function ChangelogPage({ authHeaders }: { authHeaders: HeadersInit }) {
     <AppShell
       active="changelog"
       title="Changelog"
-      description="What changed on this page and when — no per-staff identity, since login is one shared password, not individual accounts."
+      description="What changed on this page and when — no per-person identity, since login is one shared passphrase, not individual accounts."
     >
       {entries === "error" ? (
         <div className="flex items-center justify-between gap-3 rounded-xl hairline border surface-tint p-4">
